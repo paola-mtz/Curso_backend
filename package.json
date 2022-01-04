@@ -1,11 +1,18 @@
 {
-  "name": "curso_backend",
+  "name": "curso_nodejs",
   "version": "1.0.0",
-  "description": "\"Proyecto del curso Nodejs 2021\"",
+  "description": "Curso de Backend",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "\"Paola Martinez Almendra\"",
-  "license": "ISC"
+  "author": "Ricardo Tenorio Ruiz",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mariadb": "^2.5.5"
+  }
 }
